@@ -34,7 +34,7 @@
     }
 
     .outer-stroke {
-      stroke: #000;
+      stroke: #ddd;
       stroke-width: 3.6;
       opacity: .75;
     }
