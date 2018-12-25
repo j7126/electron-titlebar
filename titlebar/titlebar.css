@@ -135,11 +135,11 @@ html[electron-titlebar-platform=win32] #electron-titlebar > .button-close {
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button-close.hover {
-    background-color: #e81123;
+    background-color: #17eedc;
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button-close:active {
-    background-color: rgba(232, 17, 35, 0.6);
+    background-color: rgba(23, 238, 220, 0.6);
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button img {
