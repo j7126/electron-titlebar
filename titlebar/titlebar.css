@@ -61,6 +61,10 @@ html.darwin #electron-titlebar > .button {
     display: none !important;
 }
 
+#electron-titlebar.no-close > .button-close {
+    display: none !important;
+}
+
 html[electron-titlebar-platform=linux] #electron-titlebar > .button {
     top: 5px;
     width: 16px;
