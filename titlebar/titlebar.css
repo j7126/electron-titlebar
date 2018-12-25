@@ -119,8 +119,11 @@ html[electron-titlebar-platform=win32] #electron-titlebar > .button {
     top: 0px;
     width: 45px;
     height: 29px;
-    -webkit-filter: invert(70%);
 }
+
+html[electron-titlebar-platform=win32] #electron-titlebar > .button > img {
+    -webkit-filter: invert(70%);
+} 
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button.hover {
     background-color: rgba(196, 196, 196, 0.4);
@@ -135,11 +138,11 @@ html[electron-titlebar-platform=win32] #electron-titlebar > .button-close {
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button-close.hover {
-    background-color: #17eedc;
+    background-color: #e81123;
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button-close:active {
-    background-color: rgba(23, 238, 220, 0.6);
+    background-color: rgba(232, 17, 35, 0.6);
 }
 
 html[electron-titlebar-platform=win32] #electron-titlebar > .button img {
